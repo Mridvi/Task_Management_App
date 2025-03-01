@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+body {
+  @apply bg-gradient-to-t from-[#f6b1a8] to-[#ffb0ff] text-white;
+  background-attachment: fixed;
+}
+
+button {
+  @apply bg-[#a18cd1] text-white font-bold py-2 px-4 rounded transition-all duration-300 hover:bg-[#916bc1];
+}
+
